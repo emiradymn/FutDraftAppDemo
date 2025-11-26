@@ -119,7 +119,67 @@ Tüm component’leri yöneten ana uygulama bileşeni.
 - Component’ler arası veri yönetimi  
 
 ---
+# 🌐 Kullanılan API: TheSportsDB
 
+FutDraft App içinde profesyonel futbolcuların bilgilerini dinamik olarak almak için  
+**TheSportsDB** isimli açık futbol veri API’si kullanılmıştır.
+
+**🔗 API:** https://www.thesportsdb.com  
+
+Bu API sayesinde uygulama şu verileri çekebilmektedir:
+- Futbolcu arama (isim ile)
+- Oyuncu fotoğrafı
+- Mevcut takımı
+- Yaş, pozisyon ve ülke bilgileri
+- Oyuncu ID’leri (ileri geliştirmeler için)
+
+**Kullanım Mantığı:**
+Kullanıcı arama kutusuna bir futbolcu ismi yazdığında (ör. *“Messi”*),  
+TheSportsDB’den gelen sonuçlar listelenir ve kullanıcı buradan istediği oyuncuyu seçebilir.
+
+API isteği örneği:
+
+```js
+fetch(`https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${playerName}`)
+  .then(res => res.json())
+  .then(data => console.log(data));
+```
+---
+# 📸 Uygulama Fotografları
+
+Aşağıdaki görseller, FutDraft App'in temel akışlarını ve kullanıcı deneyimini kısa şekilde göstermektedir.
+
+
+
+## 🔢 Formasyon Seçimi  
+**Açıklama:**  
+4-3-3, 4-4-2, 3-5-2 gibi formasyonlar seçilerek sahadaki yerleşim otomatik güncelleniyor.
+
+![Formation](./assets/FormationGIF.gif)
+
+---
+
+## 🎯 Oyuncu Seçimi  
+**Açıklama:**  
+Oyuncu havuzundan istenilen oyuncu seçilip detaylarına bakılabiliyor ve sahaya eklenebiliyor.
+
+![Player Select](./assets/PlayerSelectGIF.gif)
+
+---
+## 🏟️ Sahaya Oyuncu Eklenmesi (Drag & Drop)  
+**Açıklama:**  
+Oyuncular sürükle–bırak yöntemiyle sahadaki uygun pozisyonlara yerleştiriliyor.
+
+![Field Add](./assets/FieldAddGIF.gif)
+
+---
+## 🧍‍♂️ Amatör & Halı Saha Oyuncusu Ekleme  
+**Açıklama:**  
+Kullanıcı, amatör veya halı saha oyuncularını isim + pozisyon girerek oyuncu havuzuna ekleyebiliyor.
+
+![Amateur Player](./assets/AmateurPlayer.gif)
+
+---
 # 🚀 Yakında Gelecek Özellikler
 
 ## 📌 1. Kadro Paylaşma  
