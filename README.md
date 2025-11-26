@@ -1,21 +1,17 @@
-# 📘 FutDraft App – Demo & Component Documentation
+# ⚽ FutDraft App – Demo & Component Documentation
 
-React + Vite ve **Tailwind CSS** kullanılarak geliştirilmiş, hem **profesyonel futbolcuların** hem de **halı saha oyuncularının** kendi kadrolarını oluşturabileceği modern, eğlenceli ve interaktif bir futbol kadro oluşturma platformu.
+React + Vite ve **Tailwind CSS** kullanılarak geliştirilmiş modern bir diziliş ve takım oluşturma uygulamasıdır.
 
-Bu demo deposu; uygulamanın yapısını, bileşenlerini ve gelecek planlarını göstermeyi amaçlar.  
-Gerçek uygulama kodları güvenlik nedeniyle **private** bir repoda tutulmaktadır.
-
----
-
-# ⚽ FutDraft App – Futbol Severler İçin Kadro Oluşturma Platformu
-
-FutDraft App, kullanıcıların hem profesyonel futbolculardan hem de **arkadaş gruplarından veya halı saha oyuncularından** kendi kadrolarını kurabildiği modern bir diziliş ve takım oluşturma uygulamasıdır.
+FutDraft App, kullanıcıların hem profesyonel futbolculardan hem de **arkadaş gruplarından veya halı saha oyuncularından** kendi kadrolarını kurabildiği uygulamadır.
 
 Kullanıcılar:
 - Oyuncu ekleyebilir  
 - Pozisyona göre saha yerleşimini düzenleyebilir  
 - Farklı formasyonlar seçebilir  
 - Sürükle–bırak (Drag & Drop) ile kolayca takım dizilimi yapabilir  
+
+Bu demo deposu, uygulamanın yapısını, bileşenlerini ve gelecek planlarını göstermeyi amaçlar.  
+Gerçek uygulama kodları güvenlik nedeniyle **private** bir repoda tutulmaktadır.
 
 ---
 
