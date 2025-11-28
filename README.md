@@ -204,5 +204,11 @@ Halı saha oyuncuları ve amatör futbolcular:
 Bu repo, FutDraft App uygulamasının **demo ve tanıtım** versiyonudur.  
 Gerçek kaynak kodları güvenlik nedeniyle **private repoda** tutulmaktadır.
 
-📢 **Canlı sürüm** yayınlandığında, bu sayfada veya ilgili canlı repoda bağlantı paylaşılacaktır.  
-Her türlü geri bildirim ve iş birliği teklifleri için [emiradymn.com.tr](http://emiradymn.com.tr) adresinden iletişime geçebilirsiniz. 
+## 📢 Canlı Sürüm
+
+Uygulamanın canlı sürümü yayınlandı!  
+👉 **https://futdraft-app.vercel.app/**
+
+Her türlü geri bildirim ve iş birliği teklifleri için  
+🔗 [emiradymn.com.tr](http://emiradymn.com.tr) adresinden iletişime geçebilirsiniz.
+
